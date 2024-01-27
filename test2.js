@@ -1,1 +1,6 @@
-Run with 'code -' to read from stdin (e.g. 'ps aux | grep code | code -').
+
+function testing(str){
+    return str + "  you!"
+}
+    
+console.log(testing('hello'))
